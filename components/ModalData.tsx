@@ -33,7 +33,7 @@ export function ModalData({ isOpen, onClose, data, handleSimpan, isEditable = tr
         <Text mb='8px'>NIS</Text>
         <Input placeholder="NIS" value={nis} onChange={(e) => setNis(e.target.value)} />
         <Text mb='8px'>Nama</Text>
-        <Input placeholder="Nama" value={nama} onChange={(e) => setNama(parseInt(e.target.value))} />
+        <Input placeholder="Nama" value={nama} onChange={(e) => setNama(e.target.value)} />
         <Text mb='8px'>Kelas</Text>
         <Input placeholder="Kelas" value={kelas} onChange={(e) => setKelas(e.target.value)} />
         <Text mb='8px'>Jurusan</Text>
